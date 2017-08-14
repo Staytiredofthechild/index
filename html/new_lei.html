@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lei</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script type="text/javascript" src="../js/mui.min.js"></script>
+    <script type="text/javascript" src="../js/video.min.js"></script>
+    <script type="text/javascript" src="../js/videojs-ie8.min.js"></script>
+    <style>
+        a{text-decoration: none;}
+        *{text-decoration: none;color: #000;font-size: 12px;list-style: none;}
+    </style>
+</head>
+<body>
+<header style="background: #37373B;color: #fff;height: 44px;position: fixed;top: 0px;width: 100%;margin: 0 auto;z-index: 998;">
+    <a href="new_Release.html" style="float: left;display: inline-block;height: 44px;line-height: 44px;color: #fff;font-size: 14px;text-decoration: none;padding-left: 10px;" class="glyphicon glyphicon-menu-left">返回</a><a href="new_index.html" style="float: left;line-height: 50px;display: inline-block;height: 44px;color: #fff;font-size: 14px;padding-left: 5px;text-decoration: none;">关闭</a><span style="line-height: 50px;float: left;display: inline-block;height: 44px;width: 200px;text-align: center;color: #fff;font-size: 18px;">李雷和韩梅梅</span><a href="#picture" style="text-decoration: none;text-align: center;display: inline-block;float: right;width: 44px;height: 44px;line-height: 44px;color: #fff;font-size: 20px;" class="glyphicon glyphicon-option-horizontal"></a><p style="clear: both;margin: 0;padding: 0;"></p>
+</header>
+<section style="width: 100%;margin: 0 auto;position: relative;padding-top: 96px;background: #29292B;">
+    <div style="z-index: 998;position: fixed;top: 44px;width: 100%;height: 52px;margin: 0 auto;background: #2D2D2E;"><a href="#" style="display: inline-block;text-decoration: none;"><img src="../img/logo.png" alt=""></a><div style="float: right;"><a href="#jjd" style="display: inline-block;height: 49px;width: 30px;color: #fff;line-height: 49px;text-align: center;font-size: 15px;text-decoration: none;" class="glyphicon glyphicon-menu-hamburger"></a><a href="#" style="display: inline-block;width: 30px;height: 49px;color: #fff;text-align: center;font-size: 15px;line-height: 49px;text-decoration: none;" class="glyphicon glyphicon-search"></a><a href="#" style="text-decoration: none;display: inline-block;width: 49px;height: 49px;color: #fff;text-align: center;line-height: 49px;">登录</a></div><div style="clear: both;"></div></div>
+    <div id="jjd" class="mui-popover mui-popover-action" style="position: absolute;top: 96px;z-index: 9;display: none;width: 100%;height: 100px;background: rgba(0,0,0,.2)">
+        <ul style="float: left;margin: 0;padding: 0 0 0 15px;">
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">电视剧</a></li>
+            <li style="padding: 0px 10px 0px 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">动漫</a></li>
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">游戏</a></li>
+        </ul>
+        <ul style="float: left;margin: 0;padding:0px 0px 0px 15px;">
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">新好声音</a></li>
+            <li style="padding: 0px 10px 0px 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">娱乐</a></li>
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">纪录片</a></li>
+        </ul>
+        <ul style="float: left;margin: 0;padding:0px 0px 0px 15px;">
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">VIP</a></li>
+            <li style="padding: 0px 10px 0px 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">新闻</a></li>
+        </ul>
+        <ul style="float: left;margin: 0;padding:0px 0px 0px 15px;">
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">电影</a></li>
+            <li style="padding: 0px 10px 0px 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">体育</a></li>
+        </ul>
+        <ul style="float: left;margin: 0;padding:0px 0px 0px 15px;">
+            <li style="padding: 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">综艺</a></li>
+            <li style="padding: 0px 10px 0px 10px;color: #fff;font-size: 14px;text-align: center;"><a href="#" style="text-decoration: none;color: #fff;font-size: 14px;">生活</a></li>
+        </ul>
+    </div>
+    <div style="width: 100%;margin: 0 auto;height: 211px;">
+        <video class="vio" controls="controls" style="width: 100%;height: 100%;"><source src="../img/lei-1.mp4"></video>
+        <video class="vio" controls="controls" style="display: none;width: 100%;height: 100%;"><source src="../img/lei-2.mp4"></video>
+    </div>
+    <div style="width: 100%;padding: 15px 10px 10px 10px;margin: 0  auto;">
+        <div style="border: 1px solid #cccccc;color: #fff;border-radius: 5px;width: 100%;position: relative">
+            <span style="margin-left: 55px;float: left;display: inline-block;width: 30px;height: 30px;background: url(../img/logo1.png) no-repeat center;"></span><a style="display: inline-block;text-align: center;height: 30px;line-height: 30px;text-decoration: none;color: #fff;font-size: 14px;float: left;" href="#">提升3倍流畅度，打开腾讯视频</a><div style="clear: both;"></div>
+        </div>
+    </div>
+    <div style="width: 100%;padding: 20px 10px 0px 10px;margin: 0 auto;">
+        <div style="float: left;"><span style="color: #FFFFE8;font-size: 20px;font-weight: 700;display: block;">李雷和韩梅梅</span><span style="color: #88887A;font-size: 14px;padding: 10px 0px 0px 0px;display: inline-block;">5.4分/预告片 爱情 喜剧 院线</span></div>
+        <div style="float: right;"><a href="#" style="text-decoration: none;display: inline-block;width: 20px;height: 100%;line-height: 50px;color: #88887A;font-size: 20px;margin-right: 20px;" class="glyphicon glyphicon-heart"></a><a href="#" style="text-decoration: none;display: inline-block;width: 20px;height: 100%;text-align: center;color: #88887A;font-size: 20px;line-height: 50px;" class="glyphicon glyphicon-save"></a></div>
+        <div style="clear: both;"></div>
+        <div id="box" style="width: 100%;padding: 0px 0px 0px 0px;overflow: hidden;height: 0px;">
+            <span style="display: block;font-size: 14px;color: #88887A;">主演：张子枫 张逸杰 成悻宁 李家成 常铖 王旭东 张诚航</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">马泽涵 花希 苗皓钧 朱子岩 郝平 王菁华</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">导演：杨永春</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">简介：运动全能的中学生女汉子韩梅梅,各项成绩尚可,但</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">一提起英语就头疼的要命。在结束了快乐的初中生活后,</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">韩梅梅和魏华、林涛等一起升上了高中,同时还有李雷。</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">如今的李雷已是脱胎换骨,从一个不起眼的小男生变成了</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">又高又帅的男神,还有一口英伦范的纯正英语。韩梅梅也</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">是不知不觉中喜欢上了李雷,却迟迟不敢开口,于是古灵</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">精怪的她制定出各种作战计划,意图攻陷李雷。然而,天</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">有不测风云,一场又一场的麻烦和变故,接二连三地降落</span>
+            <span style="display: block;font-size: 14px;color: #88887A;">在他们身上......多年后,韩梅梅和李雷,还能牵手成功吗？</span>
+        </div>
+        <span id="btn" style="padding: 10px 0 10px 0;display: block;width: 100%;text-align: center;font-size: 16px;color: #88887A;" class="glyphicon glyphicon-chevron-down"></span>
+    </div>
+    <div style="width: 100%;margin: 0 auto;padding: 20px 10px 10px 10px;">
+        <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;">专辑列表</span>
+        <div style="margin: 0 auto;width: 100%;padding: 10px 0 0 0;">
+            <span class="Notice" style="display: inline-block;width: 45%;border-radius: 5px;background: #373737;float: left;">
+                <span class="siz" style="display: block;color: #DE771E;word-break:break-all;padding: 10px 10px 0 10px;">《李雷和韩梅梅》终极预告 国民CP谱写青春 ING</span>
+                <span style="display: block;background: #5E5E5E;padding: 2px;width: 18px;color: #D9D9D9;float: right;border-radius: 2px;">预</span>
+                <div style="clear: both;"></div>
+            </span>
+            <span class="Notice" style="display: inline-block;width: 45%;border-radius: 5px;background: #373737;float: right;">
+                <span class="siz" style="display: block;color: #9D9D93;word-break:break-all;padding: 10px 10px 0 10px;">《李雷和韩梅梅》少男少女预告 鲜肉男神朝气来袭</span>
+                <span style="display: block;background: #5E5E5E;padding: 2px;width: 18px;color: #D9D9D9;float: right;border-radius: 2px;">预</span>
+                <div style="clear: both;"></div>
+            </span>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    <div style="width: 100%;margin: 0 auto;padding: 10px 0 10px 0;">
+        <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 20px 10px 20px 10px;background: #2A282D;">热门小视频</span>
+        <div style="width: 100%;margin: 0 auto;height: 211px;">
+            <video class="vio" controls="controls" style="width: 100%;height: 100%;"><source src="../img/gequ.mp4"></video>
+        </div>
+        <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 20px 10px 20px 10px;background: #2A282D;">李雷和韩梅梅全剧歌曲</span>
+        <div style="width: 100%;margin: 0 auto;height: 211px;">
+            <video class="vio" controls="controls" style="width: 100%;height: 100%;"><source src="../img/zhenren.mp4"></video>
+        </div>
+        <div id="vios" style="width: 100%;margin: 0 auto;height: 0px;overflow: hidden;">
+            <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 20px 10px 20px 10px;background: #2A282D;">李雷和韩梅梅-真人</span>
+            <div style="width: 100%;margin: 0 auto;height: 211px;">
+                <video class="vio" controls="controls" style="width: 100%;height: 100%;"><source src="../img/zaojiu.mp4"></video>
+            </div>
+            <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 20px 10px 20px 10px;background: #2A282D;">最美的青春</span>
+            <div style="width: 100%;margin: 0 auto;height: 211px;">
+                <video class="vio" controls="controls" style="width: 100%;height: 100%;"><source src="../img/zhutiqu.mp4"></video>
+            </div>
+            <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 20px 10px 20px 10px;background: #2A282D;">李雷和韩梅梅-主题曲</span>
+            <div style="width: 100%;margin: 0 auto;height: 211px;">
+                <video class="vio" controls="controls" style="width: 100%;height: 100%;"><source src="../img/huaxu.mp4"></video>
+            </div>
+        </div>
+        <span id="btns" style="padding: 20px 0 10px 0;display: block;width: 100%;text-align: center;font-size: 16px;color: #88887A;" class="glyphicon glyphicon-chevron-down"></span>
+    </div>
+    <div style="width: 100%;margin: 0 auto;">
+        <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 10px 10px 10px 10px;background: #2A282D;">推荐</span>
+        <a style="display: block;width: 100%;margin: 0 auto;padding: 10px;text-decoration: none;">
+            <span style="display: block;float: left;padding: 10px 0 0 0"><img src="../img/a1.png" alt=""></span>
+            <span style="display: block;float: left;color: #BABCA6;line-height: 106px;padding: 0 0 0 10px;font-size: 14px;">最美的时候遇见你</span>
+            <div style="clear: both;"></div>
+        </a>
+        <a style="display: block;width: 100%;margin: 0 auto;padding: 0 10px 10px 10px;text-decoration: none;">
+            <span style="display: block;float: left;padding: 10px 0 0 0"><img src="../img/a2.png" alt=""></span>
+            <span style="display: block;float: left;color: #BABCA6;line-height: 106px;padding: 0 0 0 10px;font-size: 14px;">我的青春密友</span>
+            <div style="clear: both;"></div>
+        </a>
+        <a style="display: block;width: 100%;margin: 0 auto;padding: 0 10px 10px 10px;text-decoration: none;">
+            <span style="display: block;float: left;padding: 10px 0 0 0"><img src="../img/a3.png" alt=""></span>
+            <span style="display: block;float: left;color: #BABCA6;line-height: 106px;padding: 0 0 0 10px;font-size: 14px;">暗恋者的表白</span>
+            <div style="clear: both;"></div>
+        </a>
+        <div id="imgs" style="width: 100%;margin: 0 auto;height: 0px;overflow: hidden;">
+            <a style="display: block;width: 100%;margin: 0 auto;padding: 0 10px 10px 10px;text-decoration: none;">
+                <span style="display: block;float: left;padding: 10px 0 0 0"><img src="../img/a4.png" alt=""></span>
+                <span style="display: block;float: left;color: #BABCA6;line-height: 106px;padding: 0 0 0 10px;font-size: 14px;">校花驾到之极品校花</span>
+                <div style="clear: both;"></div>
+            </a>
+            <a style="display: block;width: 100%;margin: 0 auto;padding: 0 10px 10px 10px;text-decoration: none;">
+                <span style="display: block;float: left;padding: 10px 0 0 0"><img src="../img/a5.png" alt=""></span>
+                <span style="display: block;float: left;color: #BABCA6;line-height: 106px;padding: 0 0 0 10px;font-size: 14px;">一个性感的秘密</span>
+                <div style="clear: both;"></div>
+            </a>
+            <a style="display: block;width: 100%;margin: 0 auto;padding: 0 10px 10px 10px;text-decoration: none;">
+                <span style="display: block;float: left;padding: 10px 0 0 0"><img src="../img/a6.png" alt=""></span>
+                <span style="display: block;float: left;color: #BABCA6;line-height: 106px;padding: 0 0 0 10px;font-size: 14px;">我们这一班2</span>
+                <div style="clear: both;"></div>
+            </a>
+        </div>
+        <span id="btna" style="padding: 10px 0 10px 0;display: block;width: 100%;text-align: center;font-size: 16px;color: #88887A;" class="glyphicon glyphicon-chevron-down"></span>
+    </div>
+    <div style="width: 100%;margin: 0 auto;">
+        <span style="color: #AEAD98;font-size: 16px;font-weight: 700;display: block;padding: 10px 10px 10px 10px;background: #2A282D;">评论</span>
+        <span style="display: block;width: 100%;margin: 0 auto;padding: 10px;"><span style="display: block;float: left;width: 30px;height: 30px;border-radius: 50%;background: url(../img/33.png) no-repeat center;background-size: 100% 100%;"></span> <span style="display: block;width: 50%;margin: 0 auto;float: left;padding: 0 0 0 10px;line-height: 30px;height: 30px;color: #908F78;font-size: 14px;">逆我者亡</span><div style="clear: both;"></div></span>
+        <span style="width: 100%;display: block;margin: 0 auto;white-space:pre-wrap;padding: 10px;color: #908F78;font-size: 14px;">很喜欢这部电影,是因为很喜欢它的主题歌曲。这部电影代表着的是我们青春时期的纯真感情,能够激发我们对那个时期的怀念。它也会使我们生出对那个时候的一些想做而又不敢做的事的一丝遗憾。比如我来说,如果有能够重来一次的机会我会坚守青春时期对她的那一丝爱恋,不会像现在这样想起后满心的失落。不过虽然现在有些遗憾,但也许带着一丝遗憾的青春才是真正的美好吧！</span>
+        <span style="display: block;width: 100%;margin: 0 auto;padding: 10px;"><span style="display: block;float: left;width: 30px;height: 30px;border-radius: 50%;background: url(../img/44.png) no-repeat center;background-size: 100% 100%;"></span> <span style="display: block;width: 50%;margin: 0 auto;float: left;padding: 0 0 0 10px;line-height: 30px;height: 30px;color: #908F78;font-size: 14px;">顺我者昌</span><div style="clear: both;"></div></span>
+        <span style="width: 100%;display: block;margin: 0 auto;white-space:pre-wrap;padding: 10px;color: #908F78;font-size: 14px;">当你仰望天空的时候,你觉得,你在看星星,其实,星星也在看你啊,张逸杰你就是那颗最亮的星星,我会永远爱你的。[玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰][玫瑰]</span>
+        <span style="display: block;width: 100%;margin: 0 auto;padding: 10px;"><span style="display: block;float: left;width: 30px;height: 30px;border-radius: 50%;background: url(../img/55.png) no-repeat center;background-size: 100% 100%;"></span> <span style="display: block;width: 50%;margin: 0 auto;float: left;padding: 0 0 0 10px;line-height: 30px;height: 30px;color: #908F78;font-size: 14px;">顺我者昌逆我者亡</span><div style="clear: both;"></div></span>
+        <span style="width: 100%;display: block;margin: 0 auto;white-space:pre-wrap;padding: 10px;color: #908F78;font-size: 14px;">哈哈哈！我刚刚从电影院出来,就是去看了这部电影。结局有点悲催。男主出国了,就没有回来了。而女主成了一个大漫画家。男主女主最后没有在一起，有点小失落呢！</span>
+        <div style="width: 100%;margin: 0 auto;padding: 20px 10px 20px 10px;">
+            <div style="border: 1px solid #cccccc;color: #fff;border-radius: 5px;width: 100%;position: relative">
+                <span style="margin-left: 40px;float: left;display: inline-block;width: 30px;height: 30px;background: url(../img/logo1.png) no-repeat center;"></span><a style="display: inline-block;text-align: center;height: 30px;line-height: 30px;text-decoration: none;color: #fff;font-size: 14px;float: left;" href="#">打开腾讯视频，参与632条热评大讨论</a><div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="picture" class="mui-popover mui-popover-action" style="width: 100%;position: fixed;bottom: 0px;background: #E8E8E8;z-index: 999;" >
+    <p style="color: #000;text-align: center;padding: 10px;margin: 0;">此网页有腾讯视频提供</p>
+    <div style="width: 100%;padding: 10px;margin-bottom: 20px;">
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/11.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">发送给朋友</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;margin-left: 13.5px;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/22.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">分享朋友圈</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;margin-left: 13.5px;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/33.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">收藏</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;margin-left: 13.5px;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/44.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">QQ浏览器中打开</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: right;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/55.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">Safari中打开</span></a>
+        <p style="clear: both;"></p>
+    </div>
+    <div style="width: 100%;padding: 0px 10px 0px 10px;">
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/66.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">聊天中置顶</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;margin-left: 13.5px;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/77.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">复制链接</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;margin-left: 13.5px;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/88.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">刷新</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: left;margin-left: 13.5px;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/99.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">搜页面内容</span></a>
+        <a href="#" style="text-decoration: none;width: 60px;height: 60px;display: block;float: right;"><span style="display: block;width: 50px;height: 50px;background: #fff;margin: 0 auto;border-radius: 7px;margin-bottom: 5px;background: url(../img/00.png);background-size: 100% 100%;"></span><span style="text-align: center;width: 100%;display: block;font-family: SimSun;">调整字体</span></a>
+        <p style="clear: both;"></p>
+    </div>
+    <a style="margin-top:30px;width: 100%;height: 50px;background: #fff;display: block;color: #000;font-size: 20px;text-align: center;line-height: 50px;text-decoration: none;" href="#picture">取消</a>
+</footer>
+</body>
+<script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
+<script type="text/javascript">
+    var box = document.getElementById('box');
+    var vios = document.getElementById('vios');
+    var imgs = document.getElementById('imgs');
+    $(function(){
+        $("#btn").click(function(){
+            if (box.style.height == '240px'){
+                $('#btn').attr('class','glyphicon glyphicon-chevron-down');
+                $("#box").animate({height:"0px"},0);
+            }else {
+                $("#box").animate({height:"240px"},0);
+                $('#btn').attr('class','glyphicon glyphicon-chevron-up');
+            }
+        });
+        $("#btna").click(function(){
+            if (imgs.style.height == '348px'){
+                $('#btna').attr('class','glyphicon glyphicon-chevron-down');
+                $("#imgs").animate({height:"0px"},0);
+            }else {
+                $("#imgs").animate({height:"348px"},0);
+                $('#btna').attr('class','glyphicon glyphicon-chevron-up');
+            }
+        });
+        $("#btns").click(function(){
+            if (vios.style.height == '820px'){
+                $('#btns').attr('class','glyphicon glyphicon-chevron-down');
+                $("#vios").animate({height:"0px"},0);
+
+            }else {
+                $("#vios").animate({height:"820px"},0);
+                $('#btns').attr('class','glyphicon glyphicon-chevron-up');
+            }
+        });
+        var siz = document.getElementsByClassName("siz");
+        var vio = document.getElementsByClassName("vio");
+        for(var i=0;i<siz.length;i++){
+            siz[i].a=i;
+            siz[i].onclick=function(){
+                for(var i=0;i<siz.length;i++){
+                    siz[i].style.color = "#9D9D93";
+                    vio[i].style.display = "none";
+                    vio[i].pause();
+                }
+                this.style.color = "#DE771E";
+                vio[this.a].style.display = "block";
+                vio[this.a].pause();
+            }
+        }
+    })
+</script>
+</html>
